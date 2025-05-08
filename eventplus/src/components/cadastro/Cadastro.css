@@ -1,0 +1,76 @@
+.section_cadastro{
+    background-color: white;
+    padding: 50px 0px;
+}
+.form_cadastro{
+    display: flex;
+    align-items: center;
+}
+.partes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.parte_de_cima{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.parte_de_cima hr{
+    width: 155px;
+    border-color: #b51d44;
+    margin-top: 5px;
+    margin-bottom: 30px;
+
+}
+.parte_de_baixo{
+    display: flex;
+}
+.imagem_cadastro{
+    width: 50%;
+}
+.cad{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-left: 80px;
+    width: 50%;
+}
+.cad input{
+    height: 30px;
+    width: 356px;
+    padding: 0px 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    margin-top: 20px;
+}
+.cad select{
+    height: 30px;
+    width: 356px;
+    padding: 0px 10px;
+    margin-top: 7px;
+    /* margin-bottom: 50px; */
+    
+    color: grey;
+    
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+@media screen and (max-width: 950px){
+    .cad{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0px;
+    }
+    .imagem_cadastro{
+        display: none;
+    }
+}
